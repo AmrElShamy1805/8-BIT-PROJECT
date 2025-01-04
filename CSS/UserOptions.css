@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;
+}
+body{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 44%, rgba(18,9,121,1) 79%, rgba(3,0,255,1) 93%);
+}
+.Profilepic{
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    height:500px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.pfp{
+    margin-left:75px;
+    border-radius:50%;
+    width:350px;
+    height:350px;
+    margin-top:75px;
+    border: solid white 10px;
+}
+.PROFILE{
+    font-size:30;
+    font-weight:bold;
+    text-align:center;
+    color:white;
+}
+.LOGOUT{
+    margin-top:-10px;
+    height:50px;
+    width:auto;
+ }
+ .button{
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    height:50px;
+    width:370px;
+    border-width:5px;
+    border-color:white;
+    color:darkblue;
+    font-size:20;
+    font-weight:bold;
+    text-align:center;
+    margin-left:600px;
+    margin-top:150px;
+    
+ }
+ .button a{
+    text-decoration:none;
+ }
+ .button:hover{
+    background-color:black;
+ }
+ .UserInfo{
+    margin-left:350px;
+    margin-top:-10px;
+ }
+ .UserInfoTable{
+    color:white;
+    border:10px solid white;
+    width:75%;
+    height:auto;
+    font-size:24;
+    font-weight:bold;
+    
+ }
+ .PURCHASE-HISTORY{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+ }
+ .NO-PURCHASES{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+ }
+ .OrderInfoTable{
+    color:white;
+    border:10px solid white;
+    width:75%;
+    height:auto;
+    font-size:24;
+    font-weight:bold;
+    margin-left:250px;
+    margin-top:10px;
+ }

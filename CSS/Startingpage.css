@@ -1,0 +1,235 @@
+#jersey-10-regular {
+   font-family: "Jersey 10", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+body{
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 44%, rgba(18,9,121,1) 79%, rgba(3,0,255,1) 93%);
+}
+*{
+   padding: 0;
+   margin: 0;
+}
+.father{
+  width: 100%;
+  height: 60px;
+  color: aliceblue;
+  position: relative;
+ 
+}
+.name{
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  text-align: center;
+  display: inline;
+  position: absolute;
+z-index: 1;
+
+}
+.name h1{
+  position: relative;
+  top: 20%;
+  
+}
+.fqa{
+  width: 25px;
+  height: 60px;
+
+  text-align: center;
+  display: inline;
+  position: absolute;
+  margin-left: 1300px;
+z-index: 1;
+}
+.fqa a{
+  position: relative;
+  top: 30%;
+}
+.Updates{
+  width: 55px;
+  height: 60px;
+  
+  text-align: center;
+  display: inline;
+  position: absolute;
+  margin-left: 1200px;
+  z-index: 1;
+}
+.Updates a{
+  position: relative;
+  top: 30%;
+}
+.About{
+  width: 40px;
+  height: 60px;
+  
+  text-align: center;
+  display: inline;
+  position: absolute;
+  margin-left: 1100px;
+  z-index: 1;
+}
+.About a{
+  position: relative;
+  top: 30%;
+}
+.Main{
+  width: 30px;
+  height: 60px;
+  
+  text-align: center;
+  display: inline;
+  position: absolute;
+  margin-left: 1000px;
+  z-index: 1;
+}
+.Main a{
+  position: relative;
+  top: 30%;
+}
+.father2{
+  width: 100%;
+  height: 400px;
+ 
+  margin-top: 150px;
+  position: relative;
+}
+.gif{
+  height: 100%;
+  width: 300px;
+  
+  margin-left: 800px;
+  text-align: center;
+  position: absolute;
+}
+.gif img{
+  position: relative;
+  top: -10%; 
+  width: 550px;
+  height: 550px;  
+}
+.welcome{
+  width: 400px;
+  height: 170px;
+ 
+  margin-top: 200px;
+  margin-left: 100px;
+  position: absolute;
+  text-align: center;
+  color:white;
+}
+.anchor{
+  color: white;
+  text-decoration: none;
+
+}
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+.oswald:focus,
+.oswald:hover{
+  color: #fff;
+}
+.oswald:focus:after,
+.oswald:hover:after {
+ width: 100%;
+ left: 0%;
+}
+.oswald:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+.box {
+ width: 140px;
+ height: auto;
+ float: left;
+ transition: .5s linear;
+ position: relative;
+ display: block;
+ overflow: hidden;
+ padding: 15px;
+ text-align: center;
+ margin: 0 5px;
+ background: transparent;
+ text-transform: uppercase;
+ font-weight: 900;
+ color:white;
+}
+
+.box:before {
+ position: absolute;
+ content: '';
+ left: 0;
+ bottom: 0;
+ height: 4px;
+ width: 100%;
+ border-bottom: 4px solid transparent;
+ border-left: 4px solid transparent;
+ box-sizing: border-box;
+ transform: translateX(100%);
+}
+
+.box:after {
+ position: absolute;
+ content: '';
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 4px;
+ border-top: 4px solid transparent;
+ border-right: 4px solid transparent;
+ box-sizing: border-box;
+ transform: translateX(-100%);
+}
+
+.box:hover {
+ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.box:hover:before {
+ border-color: black;
+ height: 100%;
+ transform: translateX(0);
+ transition: .3s transform linear, .3s height linear .3s;
+}
+
+.box:hover:after {
+ border-color: black;
+ height: 100%;
+ transform: translateX(0);
+ transition: .3s transform linear, .3s height linear .5s;
+}
+
+button {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+ outline: none;
+ border: none;
+ background: transparent;
+}

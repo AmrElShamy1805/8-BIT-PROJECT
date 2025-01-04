@@ -1,0 +1,108 @@
+.MainBody{
+    width:520px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 44%, rgba(18,9,121,1) 79%, rgba(3,0,255,1) 93%);
+    border-radius:12px;
+    padding:30px 40px;
+    color:#fff;
+    margin-left:35%;
+    margin-top:5%;
+}
+body{
+    background: rgb(31,0,36);
+    background: linear-gradient(90deg, rgba(31,0,36,1) 0%, rgba(118,117,134,1) 53%, rgba(2,12,24,1) 100%);
+}
+#jersey-10-regular{
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+ }
+.form-login{
+    font-size:50px;
+    text-align:center;
+}
+.ERROR{
+    font-size:24;
+    color: #ff0033;
+}
+.MainBody .input{
+    position:relative;
+    width:100%;
+    height:50px;
+    margin:30px 0;
+}
+/*Style for input boxes*/
+.input input{
+    width:100%;
+    height:100%;
+    background:transparent;
+    border:none;
+    outline:none;
+    border: 2px solid white;
+    border-radius:40px;
+    font-size:16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.MainBody .RememberMeButton{
+    display :flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.RememberMeButton a{
+    accent-color:#fff;
+    text-decoration:none;
+}
+.RememberMeButton{
+    color:#fff;
+}
+.RememberMeButton a:hover{
+    text-decoration:wavy;
+    color:blueviolet;
+}
+.MainBody .button {
+    width: 150px;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-left: 35%;
+    margin-top: 10px;
+  }
+.MainBody .SIGNUP{
+    font-size:15 px;
+    text-align:center;
+    margin:20px 0 15px;
+}
+.LOGIN p a{
+    color: #ffff;
+    text-decoration:none;
+    font-weight:600;
+}
+.LOGIN p a:hover{
+    text-decoration:wavy;
+    color:blueviolet;
+}
+.ForgotPassword{
+    color:#ffff;
+
+}
+.gif{
+    display:block;
+    margin-left:65%;
+    margin-right:auto;
+    margin-top:-21%;
+    width:60px;
+    height:60px;
+  }
+  .anchor{
+    text-decoration:none;
+    color:white;
+  }
